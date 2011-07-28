@@ -17,12 +17,24 @@ public class User {
 	public User(){}
 	
 	/**
-	 * 有参构造
+	 * 有参构造(两个参数)
 	 * @param name
 	 * @param age
 	 */
 	public User(String name,String age){
 		this.name = name;
+		this.age = age;
+	}
+	
+	/**
+	 * 有参构造 (三个参数)
+	 * @param name
+	 * @param cid
+	 * @param age
+	 */
+	public User(String name,String cid,String age){
+		this.name = name;
+		this.cid = cid;
 		this.age = age;
 	}
 
