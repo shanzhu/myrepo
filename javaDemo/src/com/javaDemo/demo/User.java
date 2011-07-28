@@ -2,11 +2,19 @@ package com.javaDemo.demo;
 
 public class User {
 	
+	// 姓名
 	private String name;
 	
+	// 编号
 	private String cid;
 	
+	// 年龄
 	private String age;
+	
+	/**
+	 * 默认构造
+	 */
+	public User(){}
 
 	public String getName() {
 		return name;
@@ -31,7 +39,5 @@ public class User {
 	public void setCid(String cid) {
 		this.cid = cid;
 	}
-	
-	
 	
 }
