@@ -15,6 +15,16 @@ public class User {
 	 * 默认构造
 	 */
 	public User(){}
+	
+	/**
+	 * 有参构造
+	 * @param name
+	 * @param age
+	 */
+	public User(String name,String age){
+		this.name = name;
+		this.age = age;
+	}
 
 	public String getName() {
 		return name;
