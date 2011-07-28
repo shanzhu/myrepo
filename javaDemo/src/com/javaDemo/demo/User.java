@@ -37,6 +37,18 @@ public class User {
 		this.cid = cid;
 		this.age = age;
 	}
+	
+	/**
+	 * 自我介绍
+	 * @param user
+	 * @return
+	 */
+	public String introduct(User user){
+		
+		StringBuffer strbuf = new StringBuffer();
+		String message = strbuf.append("My name is ").append(user.getName()).toString();
+		return message;
+	}
 
 	public String getName() {
 		return name;
