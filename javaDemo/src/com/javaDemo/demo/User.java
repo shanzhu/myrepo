@@ -11,6 +11,9 @@ public class User {
 	// 年龄
 	private String age;
 	
+	// 电话
+	private String phone;
+	
 	/**
 	 * 默认构造
 	 */
@@ -72,6 +75,14 @@ public class User {
 
 	public void setCid(String cid) {
 		this.cid = cid;
+	}
+
+	public String getPhone() {
+		return phone;
+	}
+
+	public void setPhone(String phone) {
+		this.phone = phone;
 	}
 	
 }
