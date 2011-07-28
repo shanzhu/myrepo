@@ -14,6 +14,9 @@ public class User {
 	// 电话
 	private String phone;
 	
+	// 地址
+	private String address;
+	
 	/**
 	 * 默认构造
 	 */
