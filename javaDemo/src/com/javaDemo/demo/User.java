@@ -8,12 +8,6 @@ public class User {
 	// 编号
 	private String cid;
 	
-	// 年龄
-	private String age;
-	
-	// 电话
-	private String phone;
-	
 	/**
 	 * 默认构造
 	 */
@@ -24,22 +18,10 @@ public class User {
 	 * @param name
 	 * @param age
 	 */
-	public User(String name,String age){
+	public User(String name){
 		this.name = name;
-		this.age = age;
 	}
 	
-	/**
-	 * 有参构造 (三个参数)
-	 * @param name
-	 * @param cid
-	 * @param age
-	 */
-	public User(String name,String cid,String age){
-		this.name = name;
-		this.cid = cid;
-		this.age = age;
-	}
 	
 	/**
 	 * 自我介绍
@@ -61,28 +43,12 @@ public class User {
 		this.name = name;
 	}
 
-	public String getAge() {
-		return age;
-	}
-
-	public void setAge(String age) {
-		this.age = age;
-	}
-
 	public String getCid() {
 		return cid;
 	}
 
 	public void setCid(String cid) {
 		this.cid = cid;
-	}
-
-	public String getPhone() {
-		return phone;
-	}
-
-	public void setPhone(String phone) {
-		this.phone = phone;
 	}
 	
 }
