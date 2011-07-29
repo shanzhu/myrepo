@@ -14,13 +14,18 @@ public class User {
 	// 电话
 	private String phone;
 	
-	// 地址
-	private String address;
-	
 	/**
 	 * 默认构造
 	 */
 	public User(){}
+	
+	/**
+	 * 有参构造(一个参数)
+	 * @param name
+	 */
+	public User(String name){
+		this.name = name;
+	}
 	
 	/**
 	 * 有参构造(两个参数)
@@ -63,7 +68,7 @@ public class User {
 	public void setName(String name) {
 		this.name = name;
 	}
-
+	
 	public String getAge() {
 		return age;
 	}
@@ -79,7 +84,7 @@ public class User {
 	public void setCid(String cid) {
 		this.cid = cid;
 	}
-
+	
 	public String getPhone() {
 		return phone;
 	}
@@ -87,5 +92,6 @@ public class User {
 	public void setPhone(String phone) {
 		this.phone = phone;
 	}
+
 	
 }
