@@ -50,6 +50,19 @@ public class User {
 	}
 	
 	/**
+	 * 有参构造 (四个参数)
+	 * @param name
+	 * @param cid
+	 * @param age
+	 */
+	public User(String name,String cid,String age,String phone){
+		this.name = name;
+		this.cid = cid;
+		this.age = age;
+		this.phone = phone;
+	}
+	
+	/**
 	 * 自我介绍
 	 * @param user
 	 * @return
