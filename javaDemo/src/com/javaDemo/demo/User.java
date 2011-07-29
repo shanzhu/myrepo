@@ -45,6 +45,19 @@ public class User {
 	}
 	
 	/**
+	 * 有参构造 (四个参数)
+	 * @param name
+	 * @param cid
+	 * @param age
+	 */
+	public User(String name,String cid,String age,String address){
+		this.name = name;
+		this.cid = cid;
+		this.age = age;
+		this.address = address;
+	}
+	
+	/**
 	 * 自我介绍
 	 * @param user
 	 * @return
@@ -63,7 +76,7 @@ public class User {
 	public void setName(String name) {
 		this.name = name;
 	}
-
+	
 	public String getAge() {
 		return age;
 	}
@@ -79,13 +92,21 @@ public class User {
 	public void setCid(String cid) {
 		this.cid = cid;
 	}
-
+	
 	public String getPhone() {
 		return phone;
 	}
 
 	public void setPhone(String phone) {
 		this.phone = phone;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
 	}
 	
 }
