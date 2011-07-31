@@ -14,6 +14,9 @@ public class User {
 	// 电话
 	private String phone;
 	
+	// 地址
+	private String address;
+	
 	/**
 	 * 默认构造
 	 */
@@ -104,6 +107,14 @@ public class User {
 
 	public void setPhone(String phone) {
 		this.phone = phone;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
 	}
 
 	
